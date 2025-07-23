@@ -1,0 +1,44 @@
+Rule 0: IF defenders_in_box <= 2.50 AND yardline_100 <= 33.50 AND YardsToGo <= 21.50 AND Precipitation <= 0.00 THEN Injury = 0
+Rule 1: IF defenders_in_box <= 2.50 AND yardline_100 <= 33.50 AND YardsToGo <= 21.50 AND Precipitation > 0.00 AND poor_field_condition <= 0.50 AND home_team_on_offense <= 10.50 THEN Injury = 0
+Rule 2: IF defenders_in_box <= 2.50 AND yardline_100 <= 33.50 AND YardsToGo <= 21.50 AND Precipitation > 0.00 AND poor_field_condition <= 0.50 AND home_team_on_offense > 10.50 THEN Injury = 1
+Rule 3: IF defenders_in_box <= 2.50 AND yardline_100 <= 33.50 AND YardsToGo <= 21.50 AND Precipitation > 0.00 AND poor_field_condition > 0.50 THEN Injury = 0
+Rule 4: IF defenders_in_box <= 2.50 AND yardline_100 <= 33.50 AND YardsToGo > 21.50 THEN Injury = 1
+Rule 5: IF defenders_in_box <= 2.50 AND yardline_100 > 33.50 AND current_defence_rank <= 29.50 AND Down <= 3.50 AND rest_differential <= 2.50 AND score_differential <= -14.50 THEN Injury = 0
+Rule 6: IF defenders_in_box <= 2.50 AND yardline_100 > 33.50 AND current_defence_rank <= 29.50 AND Down <= 3.50 AND rest_differential <= 2.50 AND score_differential > -14.50 THEN Injury = 0
+Rule 7: IF defenders_in_box <= 2.50 AND yardline_100 > 33.50 AND current_defence_rank <= 29.50 AND Down <= 3.50 AND rest_differential > 2.50 AND stadium <= 10.00 THEN Injury = 0
+Rule 8: IF defenders_in_box <= 2.50 AND yardline_100 > 33.50 AND current_defence_rank <= 29.50 AND Down <= 3.50 AND rest_differential > 2.50 AND stadium > 10.00 THEN Injury = 1
+Rule 9: IF defenders_in_box <= 2.50 AND yardline_100 > 33.50 AND current_defence_rank <= 29.50 AND Down > 3.50 AND DefenseTeam <= 27.50 AND score_differential <= -12.50 THEN Injury = 0
+Rule 10: IF defenders_in_box <= 2.50 AND yardline_100 > 33.50 AND current_defence_rank <= 29.50 AND Down > 3.50 AND DefenseTeam <= 27.50 AND score_differential > -12.50 THEN Injury = 0
+Rule 11: IF defenders_in_box <= 2.50 AND yardline_100 > 33.50 AND current_defence_rank <= 29.50 AND Down > 3.50 AND DefenseTeam > 27.50 THEN Injury = 0
+Rule 12: IF defenders_in_box <= 2.50 AND yardline_100 > 33.50 AND current_defence_rank > 29.50 AND score_differential <= 6.50 AND OffenseTeam <= 25.00 AND Temperature <= 36.76 THEN Injury = 1
+Rule 13: IF defenders_in_box <= 2.50 AND yardline_100 > 33.50 AND current_defence_rank > 29.50 AND score_differential <= 6.50 AND OffenseTeam <= 25.00 AND Temperature > 36.76 THEN Injury = 0
+Rule 14: IF defenders_in_box <= 2.50 AND yardline_100 > 33.50 AND current_defence_rank > 29.50 AND score_differential <= 6.50 AND OffenseTeam > 25.00 AND home_team_on_offense <= 23.00 THEN Injury = 1
+Rule 15: IF defenders_in_box <= 2.50 AND yardline_100 > 33.50 AND current_defence_rank > 29.50 AND score_differential <= 6.50 AND OffenseTeam > 25.00 AND home_team_on_offense > 23.00 THEN Injury = 0
+Rule 16: IF defenders_in_box <= 2.50 AND yardline_100 > 33.50 AND current_defence_rank > 29.50 AND score_differential > 6.50 AND season_progression <= 0.15 THEN Injury = 0
+Rule 17: IF defenders_in_box <= 2.50 AND yardline_100 > 33.50 AND current_defence_rank > 29.50 AND score_differential > 6.50 AND season_progression > 0.15 AND week <= 13.50 THEN Injury = 1
+Rule 18: IF defenders_in_box <= 2.50 AND yardline_100 > 33.50 AND current_defence_rank > 29.50 AND score_differential > 6.50 AND season_progression > 0.15 AND week > 13.50 THEN Injury = 0
+Rule 19: IF defenders_in_box > 2.50 AND game_seconds_remaining <= 1510.50 AND offense_formation <= 8.50 AND home_team_on_defense <= 51.50 AND current_defence_rank <= 5.50 AND pass_run_ratio <= 0.55 THEN Injury = 1
+Rule 20: IF defenders_in_box > 2.50 AND game_seconds_remaining <= 1510.50 AND offense_formation <= 8.50 AND home_team_on_defense <= 51.50 AND current_defence_rank <= 5.50 AND pass_run_ratio > 0.55 THEN Injury = 0
+Rule 21: IF defenders_in_box > 2.50 AND game_seconds_remaining <= 1510.50 AND offense_formation <= 8.50 AND home_team_on_defense <= 51.50 AND current_defence_rank > 5.50 AND home_team_on_defense <= 38.50 THEN Injury = 0
+Rule 22: IF defenders_in_box > 2.50 AND game_seconds_remaining <= 1510.50 AND offense_formation <= 8.50 AND home_team_on_defense <= 51.50 AND current_defence_rank > 5.50 AND home_team_on_defense > 38.50 THEN Injury = 1
+Rule 23: IF defenders_in_box > 2.50 AND game_seconds_remaining <= 1510.50 AND offense_formation <= 8.50 AND home_team_on_defense > 51.50 AND epa <= 0.16 AND stadium <= 3.50 THEN Injury = 0
+Rule 24: IF defenders_in_box > 2.50 AND game_seconds_remaining <= 1510.50 AND offense_formation <= 8.50 AND home_team_on_defense > 51.50 AND epa <= 0.16 AND stadium > 3.50 THEN Injury = 1
+Rule 25: IF defenders_in_box > 2.50 AND game_seconds_remaining <= 1510.50 AND offense_formation <= 8.50 AND home_team_on_defense > 51.50 AND epa > 0.16 AND goal_line_situation <= 0.50 THEN Injury = 1
+Rule 26: IF defenders_in_box > 2.50 AND game_seconds_remaining <= 1510.50 AND offense_formation <= 8.50 AND home_team_on_defense > 51.50 AND epa > 0.16 AND goal_line_situation > 0.50 THEN Injury = 0
+Rule 27: IF defenders_in_box > 2.50 AND game_seconds_remaining <= 1510.50 AND offense_formation > 8.50 THEN Injury = 0
+Rule 28: IF defenders_in_box > 2.50 AND game_seconds_remaining > 1510.50 AND epa <= 0.98 AND HOME_day_since_last_game <= 8.07 AND home_team_on_defense <= 0.50 AND YardsToGo <= 11.50 THEN Injury = 1
+Rule 29: IF defenders_in_box > 2.50 AND game_seconds_remaining > 1510.50 AND epa <= 0.98 AND HOME_day_since_last_game <= 8.07 AND home_team_on_defense <= 0.50 AND YardsToGo > 11.50 THEN Injury = 0
+Rule 30: IF defenders_in_box > 2.50 AND game_seconds_remaining > 1510.50 AND epa <= 0.98 AND HOME_day_since_last_game <= 8.07 AND home_team_on_defense > 0.50 AND run_count <= 13.50 THEN Injury = 0
+Rule 31: IF defenders_in_box > 2.50 AND game_seconds_remaining > 1510.50 AND epa <= 0.98 AND HOME_day_since_last_game <= 8.07 AND home_team_on_defense > 0.50 AND run_count > 13.50 THEN Injury = 1
+Rule 32: IF defenders_in_box > 2.50 AND game_seconds_remaining > 1510.50 AND epa <= 0.98 AND HOME_day_since_last_game > 8.07 AND score_differential <= -3.50 AND AWAY_day_since_last_game <= 17.00 THEN Injury = 0
+Rule 33: IF defenders_in_box > 2.50 AND game_seconds_remaining > 1510.50 AND epa <= 0.98 AND HOME_day_since_last_game > 8.07 AND score_differential <= -3.50 AND AWAY_day_since_last_game > 17.00 THEN Injury = 1
+Rule 34: IF defenders_in_box > 2.50 AND game_seconds_remaining > 1510.50 AND epa <= 0.98 AND HOME_day_since_last_game > 8.07 AND score_differential > -3.50 AND run_count <= 32.50 THEN Injury = 0
+Rule 35: IF defenders_in_box > 2.50 AND game_seconds_remaining > 1510.50 AND epa <= 0.98 AND HOME_day_since_last_game > 8.07 AND score_differential > -3.50 AND run_count > 32.50 THEN Injury = 1
+Rule 36: IF defenders_in_box > 2.50 AND game_seconds_remaining > 1510.50 AND epa > 0.98 AND yardline_100 <= 36.50 AND pass_count <= 17.50 AND Down <= 3.50 THEN Injury = 0
+Rule 37: IF defenders_in_box > 2.50 AND game_seconds_remaining > 1510.50 AND epa > 0.98 AND yardline_100 <= 36.50 AND pass_count <= 17.50 AND Down > 3.50 THEN Injury = 1
+Rule 38: IF defenders_in_box > 2.50 AND game_seconds_remaining > 1510.50 AND epa > 0.98 AND yardline_100 <= 36.50 AND pass_count > 17.50 AND total_play_count <= 69.50 THEN Injury = 1
+Rule 39: IF defenders_in_box > 2.50 AND game_seconds_remaining > 1510.50 AND epa > 0.98 AND yardline_100 <= 36.50 AND pass_count > 17.50 AND total_play_count > 69.50 THEN Injury = 0
+Rule 40: IF defenders_in_box > 2.50 AND game_seconds_remaining > 1510.50 AND epa > 0.98 AND yardline_100 > 36.50 AND total_play_count <= 89.00 AND game_seconds_remaining <= 2350.00 THEN Injury = 1
+Rule 41: IF defenders_in_box > 2.50 AND game_seconds_remaining > 1510.50 AND epa > 0.98 AND yardline_100 > 36.50 AND total_play_count <= 89.00 AND game_seconds_remaining > 2350.00 THEN Injury = 1
+Rule 42: IF defenders_in_box > 2.50 AND game_seconds_remaining > 1510.50 AND epa > 0.98 AND yardline_100 > 36.50 AND total_play_count > 89.00 AND stadium <= 32.50 THEN Injury = 0
+Rule 43: IF defenders_in_box > 2.50 AND game_seconds_remaining > 1510.50 AND epa > 0.98 AND yardline_100 > 36.50 AND total_play_count > 89.00 AND stadium > 32.50 THEN Injury = 1

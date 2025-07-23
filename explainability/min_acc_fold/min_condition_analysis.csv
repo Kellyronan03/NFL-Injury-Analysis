@@ -1,0 +1,45 @@
+Rule,Accuracy,#Times_Used,Rule Decision,Rule Length,Rule Piece 1,Rule Piece 2,Rule Piece 3,Rule Piece 4,Rule Piece 5,Rule Piece 6
+8,1.0,121,0,6,defenders_in_box <= 2.50,yardline_100 > 34.50,current_defence_rank <= 27.50,score_differential > -14.50,surface_type <= 2.50,yardline_100 <= 64.50
+0,1.0,81,0,3,defenders_in_box <= 2.50,yardline_100 <= 34.50,Precipitation <= 0.00,0,0,0
+9,1.0,47,0,6,defenders_in_box <= 2.50,yardline_100 > 34.50,current_defence_rank <= 27.50,score_differential > -14.50,surface_type <= 2.50,yardline_100 > 64.50
+38,1.0,21,0,6,defenders_in_box > 2.50,game_seconds_remaining > 2371.00,OffenseTeam > 25.50,epa <= 2.30,game_seconds_remaining <= 2767.50,offensive_predictability > 0.01
+34,1.0,17,0,6,defenders_in_box > 2.50,game_seconds_remaining > 2371.00,OffenseTeam <= 25.50,yardline_100 > 32.50,stadium <= 5.50,score_differential > -1.50
+1,1.0,11,0,4,defenders_in_box <= 2.50,yardline_100 <= 34.50,Precipitation > 0.00,stadium <= 22.50,0,0
+25,1.0,10,0,6,defenders_in_box > 2.50,game_seconds_remaining <= 2371.00,epa > 1.07,score_differential > -25.50,yardline_100 <= 5.50,Down <= 3.50
+29,1.0,8,0,6,defenders_in_box > 2.50,game_seconds_remaining > 2371.00,OffenseTeam <= 25.50,yardline_100 <= 32.50,DefenseTeam <= 7.50,run_count <= 9.50
+14,1.0,6,0,6,defenders_in_box <= 2.50,yardline_100 > 34.50,current_defence_rank > 27.50,AWAY_day_since_last_game > 5.50,current_defence_rank <= 29.50,score_differential > -13.50
+16,1.0,4,0,6,defenders_in_box <= 2.50,yardline_100 > 34.50,current_defence_rank > 27.50,AWAY_day_since_last_game > 5.50,current_defence_rank > 29.50,season_progression > 0.85
+22,1.0,4,0,5,defenders_in_box > 2.50,game_seconds_remaining <= 2371.00,epa > 1.07,score_differential <= -25.50,stadium <= 26.00,0
+11,1.0,3,0,6,defenders_in_box <= 2.50,yardline_100 > 34.50,current_defence_rank <= 27.50,score_differential > -14.50,surface_type > 2.50,Temperature > 69.24
+4,1.0,2,0,5,defenders_in_box <= 2.50,yardline_100 <= 34.50,Precipitation > 0.00,stadium > 22.50,stadium > 24.00,0
+31,1.0,2,0,6,defenders_in_box > 2.50,game_seconds_remaining > 2371.00,OffenseTeam <= 25.50,yardline_100 <= 32.50,DefenseTeam > 7.50,current_defence_rank <= 1.50
+24,1.0,1,0,6,defenders_in_box > 2.50,game_seconds_remaining <= 2371.00,epa > 1.07,score_differential <= -25.50,stadium > 26.00,pass_run_ratio > 0.72
+27,0.81294964,139,1,6,defenders_in_box > 2.50,game_seconds_remaining <= 2371.00,epa > 1.07,score_differential > -25.50,yardline_100 > 5.50,OffenseTeam <= 5.50
+20,0.506319703,1345,1,6,defenders_in_box > 2.50,game_seconds_remaining <= 2371.00,epa <= 1.07,offense_formation <= 8.50,offense_formation > 1.00,score_differential > -25.50
+36,0.40546697,439,0,6,defenders_in_box > 2.50,game_seconds_remaining > 2371.00,OffenseTeam <= 25.50,yardline_100 > 32.50,stadium > 5.50,home_team_on_defense > 0.50
+21,0.3625,80,0,4,defenders_in_box > 2.50,game_seconds_remaining <= 2371.00,epa <= 1.07,offense_formation > 8.50,0,0
+19,0.260869565,69,0,6,defenders_in_box > 2.50,game_seconds_remaining <= 2371.00,epa <= 1.07,offense_formation <= 8.50,offense_formation > 1.00,score_differential <= -25.50
+5,0.233333333,60,0,6,defenders_in_box <= 2.50,yardline_100 > 34.50,current_defence_rank <= 27.50,score_differential <= -14.50,Temperature <= 83.70,epa <= 0.25
+39,0.225225225,222,0,6,defenders_in_box > 2.50,game_seconds_remaining > 2371.00,OffenseTeam > 25.50,epa <= 2.30,game_seconds_remaining > 2767.50,AWAY_day_since_last_game <= 13.50
+18,0.2,305,0,6,defenders_in_box > 2.50,game_seconds_remaining <= 2371.00,epa <= 1.07,offense_formation <= 8.50,offense_formation <= 1.00,run_count > 17.50
+28,0.0,103,1,6,defenders_in_box > 2.50,game_seconds_remaining <= 2371.00,epa > 1.07,score_differential > -25.50,yardline_100 > 5.50,OffenseTeam > 5.50
+32,0.0,60,1,6,defenders_in_box > 2.50,game_seconds_remaining > 2371.00,OffenseTeam <= 25.50,yardline_100 <= 32.50,DefenseTeam > 7.50,current_defence_rank > 1.50
+33,0.0,21,1,6,defenders_in_box > 2.50,game_seconds_remaining > 2371.00,OffenseTeam <= 25.50,yardline_100 > 32.50,stadium <= 5.50,score_differential <= -1.50
+35,0.0,20,1,6,defenders_in_box > 2.50,game_seconds_remaining > 2371.00,OffenseTeam <= 25.50,yardline_100 > 32.50,stadium > 5.50,home_team_on_defense <= 0.50
+15,0.0,11,1,6,defenders_in_box <= 2.50,yardline_100 > 34.50,current_defence_rank > 27.50,AWAY_day_since_last_game > 5.50,current_defence_rank > 29.50,season_progression <= 0.85
+30,0.0,8,1,6,defenders_in_box > 2.50,game_seconds_remaining > 2371.00,OffenseTeam <= 25.50,yardline_100 <= 32.50,DefenseTeam <= 7.50,run_count > 9.50
+10,0.0,6,1,6,defenders_in_box <= 2.50,yardline_100 > 34.50,current_defence_rank <= 27.50,score_differential > -14.50,surface_type > 2.50,Temperature <= 69.24
+6,0.0,2,1,6,defenders_in_box <= 2.50,yardline_100 > 34.50,current_defence_rank <= 27.50,score_differential <= -14.50,Temperature <= 83.70,epa > 0.25
+40,0.0,2,1,6,defenders_in_box > 2.50,game_seconds_remaining > 2371.00,OffenseTeam > 25.50,epa <= 2.30,game_seconds_remaining > 2767.50,AWAY_day_since_last_game > 13.50
+41,0.0,2,1,5,defenders_in_box > 2.50,game_seconds_remaining > 2371.00,OffenseTeam > 25.50,epa > 2.30,OffenseTeam <= 29.50,0
+2,0.0,1,1,6,defenders_in_box <= 2.50,yardline_100 <= 34.50,Precipitation > 0.00,stadium > 22.50,stadium <= 24.00,home_team_on_offense <= 36.50
+7,0.0,1,1,5,defenders_in_box <= 2.50,yardline_100 > 34.50,current_defence_rank <= 27.50,score_differential <= -14.50,Temperature > 83.70,0
+12,0.0,1,1,4,defenders_in_box <= 2.50,yardline_100 > 34.50,current_defence_rank > 27.50,AWAY_day_since_last_game <= 5.50,0,0
+23,0.0,1,1,6,defenders_in_box > 2.50,game_seconds_remaining <= 2371.00,epa > 1.07,score_differential <= -25.50,stadium > 26.00,pass_run_ratio <= 0.72
+26,0.0,1,1,6,defenders_in_box > 2.50,game_seconds_remaining <= 2371.00,epa > 1.07,score_differential > -25.50,yardline_100 <= 5.50,Down > 3.50
+37,0.0,1,1,6,defenders_in_box > 2.50,game_seconds_remaining > 2371.00,OffenseTeam > 25.50,epa <= 2.30,game_seconds_remaining <= 2767.50,offensive_predictability <= 0.01
+3,0.0,0,0,6,defenders_in_box <= 2.50,yardline_100 <= 34.50,Precipitation > 0.00,stadium > 22.50,stadium <= 24.00,home_team_on_offense > 36.50
+13,0.0,0,1,6,defenders_in_box <= 2.50,yardline_100 > 34.50,current_defence_rank > 27.50,AWAY_day_since_last_game > 5.50,current_defence_rank <= 29.50,score_differential <= -13.50
+17,0.0,0,1,6,defenders_in_box > 2.50,game_seconds_remaining <= 2371.00,epa <= 1.07,offense_formation <= 8.50,offense_formation <= 1.00,run_count <= 17.50
+42,0.0,0,1,6,defenders_in_box > 2.50,game_seconds_remaining > 2371.00,OffenseTeam > 25.50,epa > 2.30,OffenseTeam > 29.50,season_progression <= 0.09
+43,0.0,0,0,6,defenders_in_box > 2.50,game_seconds_remaining > 2371.00,OffenseTeam > 25.50,epa > 2.30,OffenseTeam > 29.50,season_progression > 0.09
