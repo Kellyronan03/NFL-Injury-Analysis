@@ -1,0 +1,2 @@
+https://github.com/nflverse/nflverse-data/releases?page=1
+https://github.com/sammieerne/NFL-Injury-Analysis
